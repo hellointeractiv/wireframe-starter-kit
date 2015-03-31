@@ -1,0 +1,25 @@
+{% include 'header.twig' %}
+
+
+
+<div style="height:400px;margin-top: 30px;">
+
+{% include 'slider.twig' %}
+</div>
+
+
+<div class="row">
+
+		{% for i in 0..5 %}
+
+			{% include 'cards.twig' %}
+
+		{% endfor %}	
+
+
+</div>
+
+
+
+
+{% include 'footer.twig' %}
